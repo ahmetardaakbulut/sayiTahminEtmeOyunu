@@ -1,0 +1,25 @@
+#inculude <iostream>
+#inculede <ctime>
+
+
+using namespace std;
+
+int main()  {
+    int rastgeleSayi = 0, girilenSayi = 0;
+
+    srand(time(NULL));
+
+    rastgeleSayi = rand() % 100;
+
+    count << "Sayi Giriniz (0-99): ";
+    cin >> girilenSayi;
+
+    if (rastgeleSayi == girilenSayi) {
+        count << "Tebrikler.";
+    } else {
+        count << "Tekrar deneyiniz.";
+    }
+
+    return 0;
+}
+
